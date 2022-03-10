@@ -22,12 +22,11 @@ export default function Home() {
                   height={1080}
               />
             </div>
-            <div className={styles.logos}> 
+            {/* <div className={styles.logos}> 
               <div className={styles.imageRow}>
                 <img alt="discord logo" src="/imgs/icons8-discord-80.png"  className={styles.discordLogo} /> 
-                {/* <img alt="twitter logo" src="/imgs/icons8-twitter-80.png"   className={styles.twitterLogo} />  */}
               </div>
-            </div>
+            </div> */}
     </div>
   )
 }
