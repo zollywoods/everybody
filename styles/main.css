@@ -5,3 +5,12 @@ body{
     overflow-y: hidden;
 
 }
+
+
+
+@media only screen and (max-width: 800px) {
+    body{
+        height: 100%;
+    }
+  }
+
