@@ -7,7 +7,7 @@ export default function Home() {
     <div className = {styles.splashScreenWrapper}>
             <Image
                 alt="background image"
-                src="/imgs/background.jpg"
+                src="/imgs/background.svg"
                 layout = {'fill'}
                 quality='100'
                 objectFit={'cover'}
