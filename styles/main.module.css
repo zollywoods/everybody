@@ -99,3 +99,25 @@
             box-shadow: 9px 9px;
         }
         }
+
+  /* landscape mode iphone 6,7,8 */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {  
+        .imageWrapper{
+            margin-top: -20px;
+        }
+}
+
+/* Landscape iPhone X */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .imageWrapper{
+        margin-top: -20px;
+    }
+}
