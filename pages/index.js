@@ -1,10 +1,18 @@
 import styles from '../styles/main.module.css'
 import Image from 'next/image'
+import Head from 'next/head'
+
 
 
 export default function Home() {
   return (
+    
     <div className = {styles.splashScreenWrapper}>
+      <Head>
+        <title>Everybody</title>
+        <meta property="og:title" content="My page title" key="title" />
+      </Head>
+
             <Image
                 alt="background image"
                 src="/imgs/background.svg"
