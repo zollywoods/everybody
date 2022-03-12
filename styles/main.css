@@ -9,6 +9,9 @@ body{
     overflow: hidden;
     background-repeat: no-repeat;
     background-image: url("/imgs/background.svg");  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;  
     background-size: cover;  
   
 
