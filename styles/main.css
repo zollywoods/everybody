@@ -7,8 +7,8 @@ body{
     padding:0;
     /* required to prevent rogue scrollbars */
     overflow: hidden;
-    /* background: no-repeat 0 0 fixed; */
-    background: url("/imgs/background.svg") no-repeat 0 0 fixed;  
+    background-repeat: no-repeat;
+    background-image: url("/imgs/background.svg");  
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
