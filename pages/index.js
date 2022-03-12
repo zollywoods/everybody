@@ -25,7 +25,7 @@ export default function Home() {
             <div className={styles.imageWrapper}> 
               <Image
                   alt="background image"
-                  src="/imgs/font.png"
+                  src="/imgs/fontRGB.svg"
                   layout = {'responsive'}
                   quality='100'
                   width={1920}
