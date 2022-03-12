@@ -10,16 +10,18 @@ export default function Home() {
     <div className = {styles.splashScreenWrapper}>
       <Head>
         <title>Everybody</title>
+        <meta  content="initial-scale=1.0, width=device-width" />
         <meta property="og:title" content="My page title" key="title" />
       </Head>
-
-            <Image
-                alt="background image"
-                src="/imgs/background.svg"
-                layout = {'fill'}
-                quality='100'
-                objectFit={'cover'}
-            />
+            <div className={styles.backgroundWrapper}>  
+              {/* <Image
+                  alt="background image"
+                  src="/imgs/background.svg"
+                  layout = {'fill'}
+                  quality='100'
+                  objectFit={'cover'}
+              /> */}
+            </div>
             <div className={styles.imageWrapper}> 
               <Image
                   alt="background image"
