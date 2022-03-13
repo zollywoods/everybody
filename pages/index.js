@@ -11,7 +11,7 @@ export default function Home() {
       <Head>
         <title>Everybody</title>
         <meta  content="initial-scale=1.0, width=device-width" />
-        <meta property="og:title" content="Everybody" key="title" />
+        <meta property="og:title" content="Everybodys" key="title" />
       </Head>
             <div className={styles.backgroundWrapper}>  
               {/* <Image
