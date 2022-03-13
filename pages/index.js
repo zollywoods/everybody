@@ -9,7 +9,7 @@ export default function Home() {
     
     <div className = {styles.splashScreenWrapper}>
       <Head>
-        <title>Everybody</title>
+        <title>Everybodys</title>
         <meta  content="initial-scale=1.0, width=device-width" />
         <meta property="og:title" content="Everybodys" key="title" />
       </Head>
