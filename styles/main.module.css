@@ -295,7 +295,6 @@
     margin-top: -60px;
     margin-left: 40px;
     animation: crescendoTwo 2s  ease-in infinite alternate;
-
 }
 
 @keyframes crescendoTwo {
@@ -347,9 +346,9 @@
     width: 70%;
 }
 
-.teamPhotoTag:hover{
+/* .teamPhotoTag:hover{
     width: 72%;
-}
+} */
 
 .teamName{
     font-size: 3em;
