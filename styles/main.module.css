@@ -302,7 +302,7 @@
     100% {transform: scale(1);}
   }
 
-  .questions{
+.questions{
     padding-top: 10%;
     width: 100%;
 }
@@ -335,7 +335,7 @@
 }
 
 .teamMember{
-    flex: 20%;
+    flex: 25%;
     padding: 10px;
     text-align: center;
 }
@@ -355,6 +355,8 @@
 }
 
 .teamContent{
+    width: 100%; 
+
     font-family: 'Nunito', sans-serif; 
 }
 
@@ -433,6 +435,7 @@
         display: none;
     }
 
+
     .moonImage{
         position:absolute;
         width: 40%;
@@ -441,8 +444,12 @@
         animation: crescendoTwo 2s  ease-in infinite alternate;
     }
 
+    .question{
+        font-size: 1.5em;
+    }
+
     .teamName{
-        font-size: 2em;
+        font-size: 1.4em;
     }
 
   

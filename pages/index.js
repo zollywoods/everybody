@@ -171,28 +171,28 @@ export default function Home() {
               <img src="/imgs/moon.png" className={styles.teamPhotoTag} />
               </div>
               <div className={styles.teamName}> David</div>
-              <p className={styles.teamContent}> Founder and Project Manager </p>
+              {/* <p className={styles.teamContent}> Founder and Project Manager </p> */}
             </div>
             <div className={styles.teamMember}>
             <div className={styles.teamPhoto}>
               <img src="/imgs/moon.png" className={styles.teamPhotoTag} />
               </div>
               <div className={styles.teamName}> Sean </div>
-              <p className={styles.teamContent}> Artist </p>
+              {/* <p className={styles.teamContent}> Artist </p> */}
             </div>
             <div className={styles.teamMember}>
             <div className={styles.teamPhoto}>
               <img src="/imgs/moon.png" className={styles.teamPhotoTag} />
               </div>
               <div className={styles.teamName}> Ryan </div>
-              <p className={styles.teamContent}> Marketing </p>
+              {/* <p className={styles.teamContent}> Marketing </p> */}
             </div>
             <div className={styles.teamMember}>
             <div className={styles.teamPhoto}>
               <img src="/imgs/moon.png" className={styles.teamPhotoTag} />
               </div>
               <div className={styles.teamName}> Zolly</div>
-              <p className={styles.teamContent}> Developement </p>
+              {/* <p className={styles.teamContent}> Developement </p> */}
 
             </div>
           </div>
